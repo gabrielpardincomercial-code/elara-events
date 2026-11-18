@@ -1,11 +1,13 @@
 /* ==========================================================================
-   Elara Events - Clean Overrides (Hide Framer Watermark & Editor Overlays Only)
+   Elara Events - Clean Overrides (Hide Framer Watermark & Template Overlays)
    ========================================================================== */
 
 #__framer-badge-container,
 #__framer-editorbar,
 #__framer-editorbar-container,
-#template-overlay {
+#template-overlay,
+[data-framer-name="Get It Button"],
+.framer-xxhg1r-container {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;

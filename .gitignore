@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+*.pyc
+*.mp4.tmp
+*.log
+transform_elara.py
